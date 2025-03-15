@@ -1,0 +1,24 @@
+ @import "tailwindcss";
+
+ @font-face {
+   font-family: 'Inter';
+   src: url('./assets/fonts/Inter-VariableFont_slnt_wght.ttf') format('truetype-variations');
+   font-weight: 100 900;
+   font-style: normal;
+ }
+
+
+ @theme {
+  --font-inter: "Inter", "sans-serif";
+}
+
+ body {
+   font-family: var(--font-inter);
+   color: #5E6E85;
+ }
+
+ .no-spin-button::-webkit-outer-spin-button,
+ .no-spin-button::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+ }
