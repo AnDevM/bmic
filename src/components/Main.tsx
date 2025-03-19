@@ -3,7 +3,7 @@ interface MainProps {
   }
   
   function Main({ children }: MainProps) {
-    return <main>{children}</main>;
+    return <main className="max-w-[1440px] mx-auto">{children}</main>;
   }
   
   export default Main;

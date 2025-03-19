@@ -13,7 +13,7 @@ function MetricCalculator () {
 
   return (
     <div className='flex flex-col gap-6'>
-      <div className='flex flex-col gap-6 sm:flex-row'>
+      <div className='flex flex-col gap-6 sm:flex-row sm:justify-between'>
         <ValueInput
           label='Height'
           unit='cm'
@@ -33,7 +33,7 @@ function MetricCalculator () {
           <p className='text-5xl font-bold'>{bmi}</p>
           <div>
             <p className='text-sm mt-6'>
-              {`Your BMI suggests you’re a ${weightCategory} weight. Your ideal weight is between ${minWeight} - ${maxWeight}.`}
+              {`Your BMI suggests you’re a ${weightCategory} weight. Your ideal weight is between ${minWeight}kgs - ${maxWeight}kgs.`}
             </p>
           </div>
         </div>

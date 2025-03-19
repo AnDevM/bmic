@@ -7,7 +7,7 @@ function Calculator () {
   const [selectedUnit, setSelectedUnit] = useState('metric')
 
   return (
-    <div className='absolute translate-y-8 bg-white w-[calc(100%-3rem)] p-6 shadow-2xl shadow-gray-300 rounded-2xl text-start'>
+    <div className='absolute translate-y-8 bg-white w-[calc(100%-3rem)] p-6 shadow-2xl shadow-gray-300 rounded-2xl text-start lg:w-[600px] lg:p-8 lg:right-0 lg:top-0 lg:translate-y-1/4 lg:translate-x-1/2'>
       <h2 className='text-2xl font-bold tracking-tighter mb-6 text-gray-800'>
         Enter your details below
       </h2>
